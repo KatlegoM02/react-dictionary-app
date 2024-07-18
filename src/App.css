@@ -14,10 +14,10 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 600px;
-  max-width: 600px;
+  width: 90%;
+  max-width: 800px;
   text-align: center;
-  height: 300px;
+  min-height: 60%;
 }
 
 .header {
@@ -48,4 +48,10 @@ button:hover {
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
 }
